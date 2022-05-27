@@ -1,3 +1,41 @@
 .App {
   text-align: center;
 }
+body {
+  margin: 0;
+  color:rgb(246, 242, 236);
+  background-image: url(./images/background.png);
+}
+
+.m-card {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 25%;
+  margin: 30px 50px;
+  border: 1px gray solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.p-card {
+  display: inline-block;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+.img-planet:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
+
+.img-planet {
+  margin: 20px;
+  width: 120px;
+}
+
+h1,h2 {
+  text-align: center;
+}
